@@ -1,0 +1,431 @@
+body {
+    font-family: Montserrat;
+}
+
+#mainN {
+    margin-top: 15%;
+    .main-text {
+        justify-content: center;
+        text-align: center;
+        color: #6e6b7b;
+        h2 {
+            font-family: MontserratBold;
+            font-size: 39px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+            text-align: center;
+            font-style: normal;
+            font-weight: bold;
+        }
+    }
+
+    .main-cat-cards {
+        .main-cat {
+            justify-content: center;
+            text-align: center;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-left: 25%;
+            margin-right: 25%;
+            i {
+                color: #6c63ff;
+            }
+            button {
+                margin-top: 10px;
+                margin-right: 26px;
+                box-shadow: 0px 2px 4px rgba(224, 235, 245, 0.6);
+                border-radius: 60px;
+                background-color: #ffffff; /* Green background */
+                border: 1px solid transparent; /* Green border */
+                color: #6e6b7b;
+                padding: 10px 24px; /* Some padding */
+                cursor: pointer; /* Pointer/hand icon */
+                float: left; /* Float the buttons side by side */
+            }
+            /* Clear floats (clearfix hack) */
+            &:after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            button:not(:last-child) {
+                border-right: none; /* Prevent double borders */
+            }
+            /* Add a background color on hover */
+            button:hover {
+                color: #fff;
+                background: #6c63ff;
+                i {
+                    color: #ffffff;
+                }
+            }
+        }
+
+        .main-cards {
+            .card {
+                border: none !important;
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+            }
+            span {
+                color: #949494;
+            }
+
+            border-style: none;
+            img {
+                border-radius: 16px 16px 0px 0px !important;
+                height: 223px !important;
+            }
+            .cardn {
+                background: #ffffff;
+
+                border-radius: 16px !important;
+                h5 {
+                    color: #000;
+                    font-weight: bold;
+                    height: 20px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                p {
+                    color: #6e6b7b;
+                }
+            }
+            .card-text {
+                white-space: nowrap;
+                height: 20px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .main-more {
+            margin-top: 48px;
+            a {
+                text-decoration: none;
+            }
+            p {
+                font-family: MontserratBold;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                /* identical to box height */
+                color: #564bd8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration-line: underline;
+            }
+        }
+    }
+}
+
+#clipN {
+    display: flex;
+    justify-content: center;
+    .clip1 {
+        margin-right: -70px;
+        clip-path: polygon(0 0%, 100% 0, 80% 100%, 0% 100%);
+    }
+    .clip2 {
+        clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0 100%);
+    }
+    img {
+        border-radius: 3%;
+        width: 546px;
+        height: 546px;
+    }
+}
+
+// All PRODUCT
+
+#headN {
+    .headN {
+        // display: flex;
+        // flex-wrap: wrap;
+        width: 100%;
+        height: 314px;
+        background: linear-gradient(269.81deg, #985cfc 0%, #529bf3 100%);
+        .buttonsall {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .fomrs {
+                margin-top: 8%;
+                margin-right: 10px;
+                width: auto !important;
+                border-radius: 25px;
+                option {
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+}
+#mainproductN {
+    margin-top: 10%;
+    .main-text {
+        justify-content: center;
+        text-align: center;
+        color: #6e6b7b;
+        h2 {
+            font-family: MontserratBold;
+            font-size: 39px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+            text-align: center;
+            font-style: normal;
+            font-weight: bold;
+        }
+    }
+
+    .main-cat-cards {
+        .main-cat {
+            justify-content: center;
+            text-align: center;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-left: 25%;
+            margin-right: 25%;
+            i {
+                color: #6c63ff;
+            }
+            button {
+                margin-top: 10px;
+                margin-right: 26px;
+                box-shadow: 0px 2px 4px rgba(224, 235, 245, 0.6);
+                border-radius: 60px;
+                background-color: #ffffff; /* Green background */
+                border: 1px solid transparent; /* Green border */
+                color: #6e6b7b;
+                padding: 10px 24px; /* Some padding */
+                cursor: pointer; /* Pointer/hand icon */
+                float: left; /* Float the buttons side by side */
+            }
+            /* Clear floats (clearfix hack) */
+            &:after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            button:not(:last-child) {
+                border-right: none; /* Prevent double borders */
+            }
+            /* Add a background color on hover */
+            button:hover {
+                color: #fff;
+                background: #6c63ff;
+                i {
+                    color: #ffffff;
+                }
+            }
+        }
+
+        .main-cards {
+            .card {
+                border: none !important;
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+            }
+            span {
+                color: #949494;
+            }
+
+            border-style: none;
+            img {
+                border-radius: 16px 16px 0px 0px !important;
+                height: 223px !important;
+            }
+            .cardn {
+                background: #ffffff;
+
+                border-radius: 16px !important;
+                h5 {
+                    color: #000;
+                    font-weight: bold;
+                    height: 20px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                p {
+                    color: #6e6b7b;
+                }
+            }
+            .card-text {
+                white-space: nowrap;
+                height: 20px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .main-more {
+            margin-top: 48px;
+            a {
+                text-decoration: none;
+            }
+            p {
+                font-family: MontserratBold;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                /* identical to box height */
+                color: #564bd8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration-line: underline;
+            }
+        }
+    }
+}
+
+// FAQS
+#bodycolor {
+    background: linear-gradient(269.81deg, #985cfc 0%, #529bf3 100%);
+}
+#faqsN {
+    h1 {
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+    margin-top: 4%;
+    height: 100vh;
+
+    .faqss {
+        background-color: white;
+    }
+
+    .accordion {
+        margin-top: 20px;
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        transition: 0.4s;
+        border-radius: 50px;
+    }
+    .active {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .active,
+    .accordion:hover {
+        background-color: white;
+    }
+
+    .accordion:after {
+        content: "\003E";
+        padding: 0px 10px;
+        color: #777;
+        font-weight: bold;
+        float: left;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+
+    .active:after {
+        content: "\2227";
+    }
+
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        border-bottom-right-radius: 50px 50px;
+        border-bottom-left-radius: 50px 50px;
+    }
+}
+
+// LOGIN
+
+.loginN {
+    background: linear-gradient(269.81deg, #985cfc 0%, #529bf3 100%);
+       
+    .log-in {
+        display: flex;
+        justify-content: center;
+        .login-text {
+            color: white;
+            font-weight: 900;
+            font-family: MontserratBold;
+            margin-top: 10%;
+        }
+        .login-input{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+//footer
+// #FooterN{}
+
+// Font
+@font-face {
+    font-family: MontserratBold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+// Max-width
+@media screen and (max-width: 1440px) {
+    .main-cat {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-cat {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .main-cards img {
+        height: 180px !important;
+    }
+    @media screen and (max-width: 426px) {
+        .main-text h2 {
+            margin-top: 20%;
+            line-height: 0;
+            font-size: 26px !important;
+        }
+    }
+
+    // Min-Width
+    @media screen and (min-width: 1024px) {
+    }
+}
